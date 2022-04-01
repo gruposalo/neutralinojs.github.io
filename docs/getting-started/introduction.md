@@ -1,53 +1,40 @@
 ---
-title: Introduction
+title: Introdução
 slug: /
 ---
 
-## What is Neutralinojs?
+## O que é o Neutralinojs?
 
-Neutralinojs is a lightweight and portable desktop application development framework.
-It lets you develop lightweight cross-platform desktop applications using JavaScript, HTML and CSS.
-You can extend Neutralinojs with any programming language (via extensions IPC) and use Neutralinojs as a
-part of any source file (via child processes IPC).
+Neutralinojs é uma estrutura de desenvolvimento de aplicativos desktop leve e portátil. Ele permite que você desenvolva aplicativos de desktop leves e multiplataforma usando JavaScript, HTML e CSS. Você pode estender o Neutralinojs com qualquer linguagem de programação (via extensões IPC) e usar o Neutralinojs como parte de qualquer arquivo de origem (via processos filho IPC).
 
-## Why Neutralinojs?
+## Porque o Neutralinojs?
 
-In Electron and NWjs, you have to install Node.js and hundreds of dependency libraries. Embedded Chromium and Node
-make simple apps bloaty. Neutralinojs offers a lightweight and portable SDK which is an alternative for Electron and
-NW.js. Neutralinojs doesn't bundle Chromium and uses the existing web browser library in the operating
-system (Eg: gtk-webkit2 on Linux). Neutralinojs implements a WebSocket connection for native operations and embeds a
-static web server to serve the web content. Also, it offers a built-in
-[JavaScript client library](https://github.com/neutralinojs/neutralino.js) for developers.
+No Electron e no NWjs, você precisa instalar o Node.js e centenas de bibliotecas de dependência. O Chromium e o Node incorporados tornam os aplicativos simples inchados. Neutralinojs oferece um SDK leve e portátil que é uma alternativa para Electron e NW.js. O Neutralinojs não inclui o Chromium e usa a biblioteca do navegador da Web existente no sistema operacional (por exemplo: gtk-webkit2 no Linux). Neutralinojs implementa uma conexão WebSocket para operações nativas e incorpora um servidor web estático para servir o conteúdo web. Além disso, oferece uma [biblioteca cliente JavaScript integrada](https://github.com/neutralinojs/neutralino.js) para desenvolvedores.
 
-See comparisons:
+Veja as comparaçõess:
 - [Neutralinojs vs Electron vs NW.JS vs Tauri vs NodeGui vs Flutter vs .Net MAUI](https://github.com/Elanis/web-to-desktop-framework-comparison)
 - [Neutralinojs vs Electron vs NW.js (2018)](https://github.com/neutralinojs/evaluation)
 
-When you start learning Neutralinojs, you will realize that Neutralinojs answers endless use cases. For example,
-you can use Neutralinojs for the following scenarios.
+Quando você começar a aprender o Neutralinojs, perceberá que o Neutralinojs responde a inúmeros casos de uso. Por exemplo, você pode usar Neutralinojs para os seguintes cenários.
 
-- Cross-platform desktop app development.
-- Building web apps with native operations.
-- Using as a cloud message broker.
-- Connecting multiple processes by using as an IPC broker.
-- and more...
+- Desenvolvimento de aplicativos de desktop multiplataforma.
+- Criando aplicativos da Web com operações nativas.
+- Usando como um agente de mensagens na nuvem.
+- Conectando vários processos usando como um broker IPC.
+- e mais...
 
-## Highlighted features
+## Recursos destacados
 
-- Portable development kit.
-- No compilation required for application developers.
-- No additional dependencies required for users.
-- Native functions support: Read files, run system commands, etc.
-- Less resource intensive compared to chromium-node-based frameworks.
-- Cross-platform: Neutralinojs apps work on Linux, Windows, macOS, and Web.
-- Simple and flexible development environment.
+- Kit de desenvolvimento portátil.
+- Nenhuma compilação necessária para desenvolvedores de aplicativos.
+- Nenhuma dependência adicional necessária para os usuários.
+- Suporte a funções nativas: Leia arquivos, execute comandos do sistema, etc.
+- Menos intensivo de recursos em comparação com chromium-node-based frameworks.
+- Cross-platform: Neutralinojs aplicativos funcionam em Linux, Windows, macOS e Web.
+- Ambiente de desenvolvimento simples e flexível.
 
-## Supported platforms and CPU architectures
+## Ambiente de desenvolvimento simples e flexível
 
-neu CLI provides you pre-built x64 binaries for Linux, macOS, and Windows. However, you can build Neutralinojs
-binaries from the source on almost all desktop operating systems and CPU architectures out there.
+O neu CLI fornece binários x64 pré-criados para Linux, macOS e Windows. No entanto, você pode construir Neutralinojs 39 binários da fonte em quase todos os sistemas operacionais de desktop e arquiteturas de CPU existentes.
 
-If you need Neutralinojs binaries for non-x64 CPU, learn how to build Neutralinojs from source
-with [this guide](contributing/framework-developer-guide#setup-and-build-the-framework).
-
-
+Se você precisar de binários Neutralinojs para CPU não x64, aprenda como construir Neutralinojs a partir da fonte com [esse manual](contributing/framework-developer-guide#setup-and-build-the-framework).
